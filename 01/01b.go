@@ -39,7 +39,7 @@ func main() {
 			} else if currentCals > thirdCals {
 				thirdCals = currentCals
 			}
-			currentCals = 0
+			currentCals = 0 // Reset counter for Elf
 		}
 	}
 	totalCals = topCals + secondCals + thirdCals
